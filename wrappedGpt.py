@@ -2,7 +2,7 @@ import openai
 import sys
 
 
-#How to use 
+# This is a wrapper for the OpenAI GPT-3 API. It takes a prompt as a command line argument and returns the response from the API.
 def getGpt3Response(inputPrompt, max_tokens=1372, temp=.5, top_p=1, frequency_penalty=.6, presence_penalty=.5):
     
     openai.api_key = ""
